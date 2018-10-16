@@ -1,0 +1,147 @@
+body {
+    background-color:#0055D4 ;
+}
+
+#title {
+font-size: 50px;
+margin-top: 20px;
+font-weight: 600;
+color: #42FFC3;
+position: fixed;
+left: 400px;
+top: 170px;
+position: fixed;
+}
+#caption {
+    font-size: 22.5px;
+    color: white;
+    font-weight: 600;
+
+}
+#form {
+    border-radius: 30px;
+    margin-right: 25px;
+    position: absolute;
+    top: 180px;
+    right: 150px;
+    border: 30px, 30px, 30px, 30px;
+    border: black;
+
+}
+.form-control {
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    height: 30px;
+    width: 190px;
+    border-color: white;
+}
+#submit {
+    border-radius: 7.5px;
+    background-color: #42FFC3;
+    color: black;
+    padding: 20px,20px,20px,20px;
+    margin-right: 130px;
+    height: 30px;
+    width: 80px;
+    font-weight: bold;
+    border-color: #42FFC3;
+}
+#caption {
+    margin-top: 5px;
+    margin-right: 65px;
+}
+#submit:hover {
+
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+::placeholder {
+    font-weight: bolder;
+    color: black;
+}
+
+#footer {
+    margin-top: 380px;
+    font-size: 200px;
+    margin-left: 50px;
+    opacity: 0.2;
+}
+
+#header {
+width: 100%;
+background-color: #0148B2 ;
+height: 80px;
+}
+#wrapper {
+width: 100%;
+background-color: #0148B2 ;
+height: 80px;
+}
+
+#logout {
+    position: fixed;
+    right: 30px;
+    top: 30px;
+    background-color: #42FFC3;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+#hello {
+    font-size: 40px;
+font-weight: bold;
+color: #42FFC3;
+position: fixed;
+right: 1100px;
+top: 100px;
+}
+
+#panel {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 120px;
+    margin-left: 70px;
+
+}
+
+#bottom {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: black;
+    width: 100%;
+    background-color: #0148B2 ;
+    height: 80px;
+}
+
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+    
+    #title {
+        top: 70px;
+        left: 75px;
+        position: fixed;
+    }
+    #form {
+        top: 250px;
+        left: 65px;
+        position: fixed;
+    }
+
+    #footer {
+        font-size: 90px;
+        margin-left: 10px;
+        padding-bottom: 70px;
+        position: fixed;
+    }
+    #hello {
+        left: 75px;
+    }
+    #panel {
+        margin-top: 140px;
+    }
+}
